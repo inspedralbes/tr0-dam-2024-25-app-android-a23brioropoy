@@ -56,7 +56,7 @@ class QuestionActivity : AppCompatActivity() {
         timerTextView = findViewById(R.id.timerTextView)
 
         // Obtener el sessionId y luego las preguntas
-        initializeSessionAndFetchQuestions(4) // Obtener 10 preguntas
+        initializeSessionAndFetchQuestions(10) // Obtener 10 preguntas
     }
 
     private fun initializeSessionAndFetchQuestions(num: Int) {
